@@ -1,6 +1,8 @@
-# OpenShoe_C
+# OpenShoe in C
 
 Original Matlab algorithm from http://www.openshoe.org completely rewritten in C by me.
+
+To see the real-time implementation of this algorithm please see my other repo "OpenShoe_C_Realtime".
 
 I did my best to keep the same file and project structure.
 
