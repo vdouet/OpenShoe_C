@@ -1,3 +1,10 @@
+/*
+Modified work Copyright (c) 2020 Victor Douet <victor.douet@gmail.com>, ISC License (open source)
+Original work: Copyright (c) 2011 OpenShoe, ISC License (open source)
+
+Change: Translated original Matlab implementation in C.
+*/
+
 #include "smoothed_ZUPTaidedINS.h"
 
 void smoothed_ZUPTaidedINS(double u[][WINDOWS_SIZE], int zupt[], double x[][WINDOWS_SIZE], double cov_smoothed[][WINDOWS_SIZE], double P_smooth[][9][WINDOWS_SIZE], double dx[][WINDOWS_SIZE], double dx_smooth[][WINDOWS_SIZE], double P[][9][WINDOWS_SIZE])

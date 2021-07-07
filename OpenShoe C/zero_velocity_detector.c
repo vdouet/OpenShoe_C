@@ -1,3 +1,10 @@
+/*
+Modified work Copyright (c) 2020 Victor Douet <victor.douet@gmail.com>, ISC License (open source)
+Original work: Copyright (c) 2011 OpenShoe, ISC License (open source)
+
+Change: Translated original Matlab implementation in C.
+*/
+
 #include "zero_velocity_detector.h"
 
 int *zero_velocity_detector(double u[][WINDOWS_SIZE])

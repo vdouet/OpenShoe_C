@@ -1,3 +1,10 @@
+/*
+Modified work Copyright (c) 2020 Victor Douet <victor.douet@gmail.com>, ISC License (open source)
+Original work: Copyright (c) 2011 OpenShoe, ISC License (open source)
+
+Change: Translated original Matlab implementation in C.
+*/
+
 #include "ZUPTaidedINS.h"
 
 void ZUPTaidedINS (double u[][WINDOWS_SIZE], int zupt[], double x_h[][WINDOWS_SIZE], double cov[][WINDOWS_SIZE])
